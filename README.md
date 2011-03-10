@@ -1,4 +1,4 @@
-# Über das hier
+ï»¿# Ãœber das hier
 
 Dies ist das Plugin Verzeichnis des Strontium Minecraft Servers. Hier findest du die Liste der aktuell auf dem Server aktiven und im test befindlichen Plugins. 
 Here you'll find the list of currently active plugins and plugins being tested for stability. 
@@ -14,7 +14,7 @@ Dies sind die aktuell auf dem Server aktivierten Plugins
 * Help
 * LWC
 
-### Ökonomische Plugins
+### Ã–konomische Plugins
 * iConomy
 * BetterShop 
 
