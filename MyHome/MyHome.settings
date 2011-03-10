@@ -1,0 +1,6 @@
+coolDownNotify = false   #Whether or not players will be notified after they've cooled down
+respawnToHome = true   #Whether or not players will respawn to their homes (false means to global spawn)
+coolDown = 60   #The number of seconds between when users can go to a home
+warmUpNotify = true   #Whether or not players will be notified after they've warmed up
+compassPointer = true   #Whether or not users' compasses point to home
+warmUp = 5   #The number of seconds after a user uses a home command before it takes them

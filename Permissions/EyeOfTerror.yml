@@ -1,0 +1,7 @@
+# Supports "Default" and "GroupUsers"
+plugin:
+    permissions:
+        system: default
+        copies: Strontium
+
+

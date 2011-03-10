@@ -1,0 +1,25 @@
+# Configuration for General
+#   - DarkGrave 2011
+#
+# About editing this file:
+# - DO NOT USE TABS. You MUST use spaces or Bukkit will complain. If
+#   you use an editor like Notepad++ (recommended for Windows users), you
+#   must configure it to "replace tabs with spaces." In Notepad++, this can
+#   be changed in Settings > Preferences > Language Menu.
+# - Don't get rid of the indents. They are indented so some entries are
+#   in categories (like "show-coords" is in the "playerlist"
+#   category.
+# - If you want to check the format of this file before putting it
+#   into General, paste it into http://yaml-online-parser.appspot.com/
+#   and see if it gives "ERROR:".
+# - Lines starting with # are comments and so they are ignored.
+#
+
+# Player list user information.
+playerlist:
+    show-coords: true
+    show-health: true
+
+# Allows you to keep a sane general.help without it being overwritten.
+help:
+    inject-commands: false

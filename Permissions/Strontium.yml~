@@ -1,0 +1,77 @@
+# System is no longer used, but may become used in the future
+# Copies is for multiple-world support
+#   Put the name of the world you wish for it to be a clone of, otherwise leave it empty.
+#   Does not work for the default world.
+#  Example: copies: Derp    -  This will clone the permissions of the world Derp
+plugin:
+    permissions:
+        system: default
+        copies: 
+
+# Groups can contain inheritance.
+#   To make a group inherit the permissions from another
+#   group simply place the groups name in the "inheritance:" like so:
+#
+#   Example:
+#       inheritance:
+#           - Default
+##
+#   All permissions including the asterisks must be placed in single quotes.
+#   like so:
+#
+#       - 'general.spawn'
+#
+#   Otherwise errors will happen!
+##
+#   Globalized Permission settings:
+#
+#       If a permission contains periods (.) you can denote a globalized parameter:
+#
+#           - 'general.*'
+#
+#       This will allow you to use all general commands.
+#
+##
+#   Single Asterisk denotes all commands:
+#
+#       - '*'
+##
+#   To exempt a node use the - prefix like so:
+#       - '-general.time'
+##
+groups:
+    Default:
+        default: true
+        info:
+            prefix: ''
+            suffix: ''
+            build: true
+        inheritance:
+        permissions:
+            - 'foo.bar'
+    Admins:
+        default: false
+        info:
+            prefix: ''
+            suffix: ''
+            build: true
+        inheritance:
+            - Default
+        permissions:
+            - '*'
+
+##
+# Users denote which users are included in which group.
+# TheNo1Yeti is in the Admin group
+# Herpina is a member of the Default group but also has access
+# to the herp.derp permissions
+# Derpina is a member of the admin group but does not have access
+# to the derp.derp permission node
+##
+users:
+    florianbeisel:
+        group: Admins
+    PeteMachine:
+        group: Admins
+    CthulhusFluch:
+        group: Admins

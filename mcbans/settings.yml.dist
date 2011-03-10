@@ -1,0 +1,36 @@
+#MOST IMPORTANT!!!!
+
+api_key: ENTERAPIKEYHERE 
+
+
+#Ban/Kick Configuration
+
+login_notify: true
+prefix: [mcbans]
+default_ban_reason: Banned because i said so
+default_kick_reason: kicked because no likey you!
+show_alerts: true
+minimum_required_reputation: 0
+offline_protect: admin
+
+
+# VOTING CONFIGURATION #
+
+vote_enabled: true
+announce_votes: true
+vote_color: blue
+vote_yes_color: green
+vote_no_color: green
+minimum_players_online_for_vote_kick_or_ban: 4
+message_vote_required_percentage: 51
+kick_vote_required_percentage: 70
+
+
+#DEBUG
+isdebug: false
+
+
+#Not Working
+
+mod_group: mod group,
+ban_command: ban

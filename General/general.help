@@ -1,0 +1,10 @@
+/online &5-&3 lists players online.
+/who &b(player) &5-&3 Player information.
+/spawn &5-&3 Return to spawn
+/time &bhelp &5-&3 Shows time help.
+/tp &5-&3 Shows teleport help.
+/me &5-&3 Emote your messages
+/tp|teleport &b[player] &5-&3 Teleport to a player.
+/s|tphere &b[player] &5-&3 Teleport a player to you.
+/gereload &5-&3 Reload any General Essentials settings
+/kit &b(name) &5-&3 List or receive kit

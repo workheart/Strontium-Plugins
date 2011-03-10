@@ -1,0 +1,23 @@
+worlds:
+    Strontium:
+        animals: true
+        spawn: 22:74:-36:0.0:0.0
+        price: 0.0
+        mobs: true
+        environment: NORMAL
+        pvp: true
+        alias: ''
+        worldBlacklist: ''
+        playerBlacklist: ''
+        playerWhitelist: ''
+    EyeOfTerror:
+        animals: true
+        spawn: 22:74:-36:0.0:0.0
+        price: 0.0
+        mobs: true
+        environment: NETHER
+        pvp: true
+        alias: TheVoid
+        worldBlacklist: ''
+        playerBlacklist: ''
+        playerWhitelist: ''

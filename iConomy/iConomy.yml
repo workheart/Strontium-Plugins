@@ -1,0 +1,28 @@
+##
+# iConomy Settings
+##
+
+System:
+    # The name of your currency
+    Currency: Coin
+    # The initial balance a player logs on with
+    Initial_Balance: 30.0
+    # Should we log transactions?
+    Logging:
+        Enabled: false
+    Database:
+        # Can be MySQL, or SQLite
+        Type: SQLite
+        # Name of the database
+        Name: minecraft
+        # Table, Flatfile uses this as the file name.
+        Table: iConomy
+        MySQL:
+            # MySQL Login Username
+            Username: root
+            # MySQL Login Password
+            Password: pass
+            # MySQL Connection Hostname (IP)
+            Hostname: localhost
+            # MySQL Connection Port Number
+            Port: 3306

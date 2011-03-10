@@ -1,0 +1,158 @@
+MultiverseHelp:
+    command: help Multiverse
+    description: 'Hilfe zu Multiverse Befehlen'
+    plugin: Multiverse
+    main: yes
+mvcreate:
+    command: mvcreate
+    description: Create World - /mvcreate WORLDNAME ENVIRONMENT
+    plugin: Multiverse
+    Permissions: multiverse.world.create
+mvimport:
+    command: mvimport
+    description: Import Existing World - /mvimport WORLDNAME ENVIRONMENT
+    plugin: Multiverse
+    Permissions: multiverse.world.import
+mvremove:
+    command: mvremove
+    description: Remove World - /mvremove WORLDNAME
+    plugin: Multiverse
+    Permissions: multiverse.world.remove
+mvlist:
+    command: mvlist
+    description: List Worlds In Worlds.yml - /mvlist
+    plugin: Multiverse
+    Permissions: multiverse.world.list
+mvteleport:
+    command: mvtp
+    description: Teleport to World - /mvtp DESTINATION
+    plugin: Multiverse
+    Permissions: multiverse.tp
+mvsetspawn:
+    command: mvsetspawn
+    description: Set Current World's Spawn - /mvsetspawn
+    plugin: Multiverse
+    Permissions: multiverse.world.setspawn
+mvspawn:
+    command: mvspawn
+    description: Return to Current World's Spawn - /mvspawn
+    plugin: Multiverse
+    Permissions: multiverse.world.spawn
+mvpc:
+    command: mvpc
+    description: Create Portal - /mvpc PORTALNAME DESTINATION
+    plugin: Multiverse
+    Permissions: multiverse.portal.create
+mvpr:
+    command: mvpr
+    description: Remove Existing Portal - /mvpr PORTALNAME
+    plugin: Multiverse
+    Permissions: multiverse.portal.remove
+mvps:
+    command: mvps
+    description: Select Existing Portal - /mvps PORTALNAME
+    plugin: Multiverse
+    Permissions: multiverse.portal.select
+mvpd:
+    command: mvpd
+    description: Set Selected Portal's Destination - /mvpd DESTINATION
+    plugin: Multiverse
+    Permissions: multiverse.portal.destination
+mvrename:
+    command: mvrename
+    description: Rename Portal - /mvrename PORTALNAME NEWPORTALNAME
+    plugin: Multiverse
+    Permissions: multiverse.portal.rename
+mvplist:
+    command: mvplist
+    description: List Portals - /mvplist
+    plugin: Multiverse
+    Permissions: multiverse.portal.list
+mvmodify:
+    command: mvmodify
+    description: Modify World Options in Worlds.yml - /mvmodify WORLDNAME OPTION:VALUE
+    plugin: Multiverse
+    Permissions: multiverse.portal.remove
+
+gehelp:
+    command: help General
+    description: Hilfe zu allgemeinen Befehlen
+    main: yes
+    plugin: General
+geonline:
+    command: online
+    description: lists players online.
+    plugin: General
+    Permissions: general
+
+gewho:
+    command: who
+    description: Player information.
+    plugin: General
+    Permissions: general
+    
+gespawn:
+    command: spawn
+    description: Return to spawn
+    plugin: General
+    Permissions: general.spawn
+    
+getime:
+    command: time
+    description: Shows time help.
+    plugin: General
+    Permissions: general
+
+geitems:
+    command: item
+    description: Shows item help.
+    plugin: General
+    Permissions: general.items
+    
+getp:
+    command: tp
+    description: Shows teleport help.
+    plugin: General
+    Permissions: general.teleport
+    
+geme:
+    command: me
+    description: Emote your messages
+    plugin: General
+    Permissions: general
+    
+getphere:
+    command: tphere
+    description: Teleport a player to you.
+    plugin: General
+    Permissions: general.teleport
+    
+gereload:
+    command: gereload
+    description: Reload any General Essentials settings
+    plugin: General
+    Permissions: general.reload
+    
+gekit:
+    command: kit
+    description: List or receive kit
+    plugin: General
+    Permissions: general.items
+
+icohelp:
+    command: money help
+    description: Hilfe für iConomy (Geld)
+    plugin: iConomy
+    main: yes
+
+shophelp:
+    command: shophelp
+    description: Hilfe für BetteShop (Shop)
+    plugin: iConomy
+    main: yes
+
+bbehlp:
+    command: bb help
+    description: Hilfe für BigBrother (Grieferschutz)
+    plugin: BigBrother
+    main: yes

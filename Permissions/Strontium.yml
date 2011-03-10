@@ -1,0 +1,172 @@
+# Supports "Default" and "GroupUsers"
+plugin:
+    permissions:
+        system: default
+        copies: 
+
+groups:
+    NotRegistered:
+        default: true
+        info: 
+            prefix: '&8[&0Guest&8]&8'
+            suffix: '&f'
+            build: false
+        inheritance:
+        permissions:
+            - 'general.spawn'
+
+            - 'multiverse.world.spawn'
+            - 'multiverse.world.list'
+
+            - 'mywarp.warp.basic.warp'
+            - 'mywarp.warp.basic.compass'
+            - 'mywarp.warp.basic.list'
+            - 'mywarp.warp.basic.search'
+            - 'mywarp.warp.sign.warp'            
+    Builder:
+        default: false
+        info:
+            prefix: '&8[&6Builder&8]&e'
+            suffix: '&f'
+            build: true
+        inheritance: NotRegistered
+        permissions:
+            - 'general.spawn'
+            - 'general.teleport'
+            - 'general.items'
+
+            - 'multiverse.world.spawn'
+            - 'multiverse.world.list'
+            - 'multiverse.tp'
+            - 'multiverse.portal.list'
+
+            - 'mywarp.warp.basic.warp'
+            - 'mywarp.warp.basic.compass'
+            - 'mywarp.warp.basic.list'
+            - 'mywarp.warp.basic.search'
+            - 'mywarp.warp.sign.warp'            
+            - 'mywarp.warp.basic.createprivate'
+            - 'mywarp.warp.soc.invite'
+            - 'mywarp.warp.soc.uninvite'
+            - 'mywarp.warp.soc.give'
+            - 'mywarp.warp.basic.welcome'
+            - 'mywarp.warp.basic.delete'
+            - 'mywarp.warp.sign.create'
+
+            - 'bb.admin.info'
+            - 'mcbans.vote.*'
+            - 'myhome.home.*'
+
+            - 'BetterShop.user.*'
+            - 'iConomy.payment'
+            - 'iConomy.rank'
+            - 'iConomy.list'
+
+            - 'skypirates.modes.plane'
+            - 'skypirates.modes.submarine'
+            - 'skypirates.modes.hoverboat'
+            - 'skypirates.items.*'
+            - 'skypirates.player.help'
+            - 'skypirates.player.changemode'
+            - 'skypirates.player.enable'
+    Mod:
+        default: false
+        info: 
+            prefix: '&8[&6Builder&8]&e'
+            suffix: '&f'
+            build: true
+        inheritance: Builder
+        permissions: 
+            - 'general.spawn'
+            - 'general.teleport'
+            - 'general.items'
+            - 'general.time'
+            - 'general.player-info' 
+
+            - 'multiverse.world.spawn'
+            - 'multiverse.world.list'
+            - 'multiverse.tp'
+            - 'multiverse.portal.list'
+            - 'multiverse.portal.create'
+            - 'multiverse.portal.remove'
+            - 'multiverse.portal.select'
+            - 'multiverse.portal.destination'
+            - 'multiverse.portal.rename'
+
+            - 'mywarp.warp.basic.warp'
+            - 'mywarp.warp.basic.compass'
+            - 'mywarp.warp.basic.list'
+            - 'mywarp.warp.basic.search'
+            - 'mywarp.warp.sign.warp'            
+            - 'mywarp.warp.basic.createprivate'
+            - 'mywarp.warp.soc.invite'
+            - 'mywarp.warp.soc.uninvite'
+            - 'mywarp.warp.soc.give'
+            - 'mywarp.warp.basic.welcome'
+            - 'mywarp.warp.basic.delete'
+            - 'mywarp.warp.sign.create'
+            - 'mywarp.warp.soc.private'
+            - 'mywarp.warp.soc.public'
+            - 'mywarp.warp.basic.createpublic'
+
+            - 'bb.admin.info'
+            - 'bb.admin.watch'
+
+            - 'mcbans.vote.*'
+            - 'mcbans.kick'
+            - 'mcbans.lookup'
+            - 'mcbans.view_ban'
+            - 'mcbans.ban.local'
+            - 'mcbans.reload'
+            - 'mcbans.mod'
+
+            - 'myhome.*'
+            - 'myhome.home.*'
+
+            - 'BetterShop.user.*'
+            - 'iConomy.payment'
+            - 'iConomy.rank'
+            - 'iConomy.list'
+            - 'iConomy.access'
+
+            - 'skypirates.modes.plane'
+            - 'skypirates.modes.submarine'
+            - 'skypirates.modes.hoverboat'
+            - 'skypirates.items.*'
+            - 'skypirates.player.help'
+            - 'skypirates.player.changemode'
+            - 'skypirates.player.enable'
+            - 'skypirates.admin.invincible'
+            - 'skypirates.admin.clear'
+    Admin:
+        default: false
+        info:
+            prefix: '&1[&4Admin&1]&4'
+            suffix: '&f'
+            build: true
+        permissions: 
+            - '*'
+            - 'mcbans.admin'
+            - 'mywarp.admin'
+##
+# User Ranks
+##
+
+users:
+    Metterschling:
+        group: Builder
+        permissions: []
+    PeteMachine:
+        group: Mod
+        permissions: []
+    Cthulhusfluch:
+        group: Mod
+        permissions: []
+    workheart:
+        group: Mod
+        permissions: []
+    florianbeisel:
+        group: Admin
+        permissions: []
+
+

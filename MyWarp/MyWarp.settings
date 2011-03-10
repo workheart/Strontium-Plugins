@@ -1,0 +1,4 @@
+maxPublic = 5   #Maximum number of public warps any player can make
+maxPrivate = 10   #Maximum number of private warps any player can make
+adminPrivateWarps = true   #Whether or not admins can see private warps in their list
+adminsObeyLimits = false   #Whether or not admins can disobey warp limits
