@@ -138,6 +138,8 @@ groups:
             - 'skypirates.player.enable'
             - 'skypirates.admin.invincible'
             - 'skypirates.admin.clear'
+
+            - 'worldedit.*'
     Admin:
         default: false
         info:
