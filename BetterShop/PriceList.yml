@@ -1,558 +1,565 @@
 prices:
-  item1:
+  item1sub0:
     name: stone
-    buy: 2
-    sell: 2
-  item2:
+    buy: 2.0
+    sell: 2.0
+  item2sub0:
     name: grass
-    buy: 2
-    sell: 2
-  item3:
+    buy: 2.0
+    sell: 2.0
+  item3sub0:
     name: dirt
-    buy: 1
-    sell: 1
-  item5:
+    buy: 1.0
+    sell: 1.0
+  item4sub0:
+    name: cobblestone
+    buy: 2.0
+    sell: 1.0
+  item5sub0:
     name: wood
-    buy: 1
-    sell: 1
-  item6:
+    buy: 1.0
+    sell: 1.0
+  item6sub0:
     name: sapling
-    buy: 1
-    sell: 1
-  item7:
+    buy: 1.0
+    sell: 1.0
+  item7sub0:
     name: bedrock
-    buy: 1000000
-    sell: 0
-  item8:
+    buy: 1000000.0
+    sell: 0.0
+  item8sub0:
     name: water
-    buy: 3
-    sell: 2
-  item10:
+    buy: 3.0
+    sell: 2.0
+  item10sub0:
     name: lava
-    buy: 5
-    sell: 3
-  item12:
+    buy: 5.0
+    sell: 3.0
+  item12sub0:
     name: sand
-    buy: 1
-    sell: 1
-  item13:
+    buy: 1.0
+    sell: 1.0
+  item13sub0:
     name: gravel
-    buy: 1
-    sell: 1
-  item14:
+    buy: 1.0
+    sell: 1.0
+  item14sub0:
     name: gold_ore
-    buy: 15
-    sell: 10
-  item15:
+    buy: 15.0
+    sell: 10.0
+  item15sub0:
     name: iron_ore
-    buy: 4
-    sell: 3
-  item16:
+    buy: 4.0
+    sell: 3.0
+  item16sub0:
     name: coal_ore
-    buy: 3
-    sell: 2
-  item17:
+    buy: 3.0
+    sell: 2.0
+  item17sub0:
     name: log
-    buy: 3
-    sell: 2
-  item18:
+    buy: 3.0
+    sell: 2.0
+  item18sub0:
     name: leaves
-    buy: 4
-    sell: 2
-  item19:
+    buy: 4.0
+    sell: 2.0
+  item19sub0:
     name: sponge
-    buy: 10
-    sell: 0
-  item20:
+    buy: 10.0
+    sell: 0.0
+  item20sub0:
     name: glass
-    buy: 2
-    sell: 1
-  item21:
+    buy: 2.0
+    sell: 1.0
+  item21sub0:
     name: lapis_ore
-    buy: 8
-    sell: 0
-  item22:
+    buy: 8.0
+    sell: 0.0
+  item22sub0:
     name: lapis_block
-    buy: 12
-    sell: 10
-  item23:
+    buy: 12.0
+    sell: 10.0
+  item23sub0:
     name: dispenser
-    buy: 16
-    sell: 14
-  item24:
+    buy: 16.0
+    sell: 14.0
+  item24sub0:
     name: sandstone
-    buy: 1
-    sell: 1
-  item25:
+    buy: 1.0
+    sell: 1.0
+  item25sub0:
     name: note_block
-    buy: 10
-    sell: 8
-  item35:
+    buy: 10.0
+    sell: 8.0
+  item35sub0:
     name: wool
-    buy: 2
-    sell: 1
-  item37:
+    buy: 2.0
+    sell: 1.0
+  item37sub0:
     name: yellow_flower
-    buy: 2
-    sell: 2
-  item38:
+    buy: 2.0
+    sell: 2.0
+  item38sub0:
     name: red_rose
-    buy: 3
-    sell: 2
-  item39:
+    buy: 3.0
+    sell: 2.0
+  item39sub0:
     name: brown_mushroom
-    buy: 2
-    sell: 2
-  item40:
+    buy: 2.0
+    sell: 2.0
+  item40sub0:
     name: red_mushroom
-    buy: 2
-    sell: 2
-  item41:
+    buy: 2.0
+    sell: 2.0
+  item41sub0:
     name: gold_block
-    buy: 150
-    sell: 140
-  item42:
+    buy: 150.0
+    sell: 140.0
+  item42sub0:
     name: iron_block
-    buy: 40
-    sell: 35
-  item43:
+    buy: 40.0
+    sell: 35.0
+  item43sub0:
     name: double_step
-    buy: 12
-    sell: 0
-  item44:
+    buy: 12.0
+    sell: 0.0
+  item44sub0:
     name: step
-    buy: 6
-    sell: 4
-  item45:
+    buy: 6.0
+    sell: 4.0
+  item45sub0:
     name: brick
-    buy: 4
-    sell: 4
-  item47:
+    buy: 4.0
+    sell: 4.0
+  item47sub0:
     name: bookshelf
-    buy: 10
-    sell: 9
-  item48:
+    buy: 10.0
+    sell: 9.0
+  item48sub0:
     name: mossy_cobblestone
-    buy: 8
-    sell: 8
-  item49:
+    buy: 8.0
+    sell: 8.0
+  item49sub0:
     name: obsidian
-    buy: 50
-    sell: 50
-  item50:
+    buy: 50.0
+    sell: 50.0
+  item50sub0:
     name: torch
-    buy: 1
-    sell: 0
-  item52:
+    buy: 1.0
+    sell: 0.0
+  item52sub0:
     name: mob_spawner
-    buy: 1000000
-    sell: 0
-  item53:
+    buy: 1000000.0
+    sell: 0.0
+  item53sub0:
     name: wood_stairs
-    buy: 1
-    sell: 1
-  item54:
+    buy: 1.0
+    sell: 1.0
+  item54sub0:
     name: chest
-    buy: 8
-    sell: 4
-  item56:
+    buy: 8.0
+    sell: 4.0
+  item56sub0:
     name: diamond_ore
-    buy: 55
-    sell: 0
-  item57:
+    buy: 55.0
+    sell: 0.0
+  item57sub0:
     name: diamond_block
-    buy: 495
-    sell: 475
-  item58:
+    buy: 495.0
+    sell: 475.0
+  item58sub0:
     name: workbench
-    buy: 4
-    sell: 1
-  item61:
+    buy: 4.0
+    sell: 1.0
+  item61sub0:
     name: furnace
-    buy: 8
-    sell: 4
-  item64:
+    buy: 8.0
+    sell: 4.0
+  item64sub0:
     name: wooden_door
-    buy: 6
-    sell: 3
-  item65:
+    buy: 6.0
+    sell: 3.0
+  item65sub0:
     name: ladder
-    buy: 3
-    sell: 2
-  item66:
+    buy: 3.0
+    sell: 2.0
+  item66sub0:
     name: rails
-    buy: 32
-    sell: 30
-  item67:
+    buy: 32.0
+    sell: 30.0
+  item67sub0:
     name: cobblestone_stairs
-    buy: 6
-    sell: 3
-  item69:
+    buy: 6.0
+    sell: 3.0
+  item69sub0:
     name: lever
-    buy: 2
-    sell: 2
-  item70:
+    buy: 2.0
+    sell: 2.0
+  item70sub0:
     name: stone_plate
-    buy: 6
-    sell: 5
-  item71:
+    buy: 6.0
+    sell: 5.0
+  item71sub0:
     name: iron_door_block
-    buy: 30
-    sell: 20
-  item72:
+    buy: 30.0
+    sell: 20.0
+  item72sub0:
     name: wood_plate
-    buy: 3
-    sell: 2
-  item73:
+    buy: 3.0
+    sell: 2.0
+  item73sub0:
     name: redstone_ore
-    buy: 2
-    sell: 1
-  item75:
+    buy: 2.0
+    sell: 1.0
+  item75sub0:
     name: redstone_torch_off
-    buy: 1
-    sell: 1
-  item77:
+    buy: 1.0
+    sell: 1.0
+  item77sub0:
     name: stone_button
-    buy: 1
-    sell: 1
-  item78:
+    buy: 1.0
+    sell: 1.0
+  item78sub0:
     name: snow
-    buy: 1
-    sell: 0
-  item79:
+    buy: 1.0
+    sell: 0.0
+  item79sub0:
     name: ice
-    buy: 3
-    sell: 0
-  item80:
+    buy: 3.0
+    sell: 0.0
+  item80sub0:
     name: snow_block
-    buy: 3
-    sell: 0
-  item81:
+    buy: 3.0
+    sell: 0.0
+  item81sub0:
     name: cactus
-    buy: 1
-    sell: 1
-  item82:
+    buy: 1.0
+    sell: 1.0
+  item82sub0:
     name: clay
-    buy: 5
-    sell: 3
-  item83:
+    buy: 5.0
+    sell: 3.0
+  item83sub0:
     name: sugar_cane_block
-    buy: 2
-    sell: 1
-  item84:
+    buy: 2.0
+    sell: 1.0
+  item84sub0:
     name: jukebox
-    buy: 58
-    sell: 56
-  item85:
+    buy: 58.0
+    sell: 56.0
+  item85sub0:
     name: fence
-    buy: 3
-    sell: 1
-  item86:
+    buy: 3.0
+    sell: 1.0
+  item86sub0:
     name: pumpkin
-    buy: 5
-    sell: 4
-  item87:
+    buy: 5.0
+    sell: 4.0
+  item87sub0:
     name: netherrack
-    buy: 1
-    sell: 0
-  item88:
+    buy: 1.0
+    sell: 0.0
+  item88sub0:
     name: soul_sand
-    buy: 1
-    sell: 0
-  item89:
+    buy: 1.0
+    sell: 0.0
+  item89sub0:
     name: glowstone
-    buy: 2
-    sell: 0
-  item90:
+    buy: 2.0
+    sell: 0.0
+  item90sub0:
     name: portal
-    buy: 1000
-    sell: 0
-  item91:
+    buy: 1000.0
+    sell: 0.0
+  item91sub0:
     name: jack_o_lantern
-    buy: 6
-    sell: 6
-  item92:
+    buy: 6.0
+    sell: 6.0
+  item92sub0:
     name: cake_block
-    buy: 10
-    sell: 10
-  item256:
+    buy: 10.0
+    sell: 10.0
+  item256sub0:
     name: iron_spade
-    buy: 6
-    sell: 4
-  item257:
+    buy: 6.0
+    sell: 4.0
+  item257sub0:
     name: iron_pickaxe
-    buy: 16
-    sell: 12
-  item258:
+    buy: 16.0
+    sell: 12.0
+  item258sub0:
     name: iron_axe
-    buy: 16
-    sell: 12
-  item260:
+    buy: 16.0
+    sell: 12.0
+  item260sub0:
     name: apple
-    buy: 5
-    sell: 5
-  item261:
+    buy: 5.0
+    sell: 5.0
+  item261sub0:
     name: bow
-    buy: 16
-    sell: 16
-  item262:
+    buy: 16.0
+    sell: 16.0
+  item262sub0:
     name: arrow
-    buy: 1
-    sell: 0
-  item263:
+    buy: 1.0
+    sell: 0.0
+  item263sub0:
     name: coal
-    buy: 2
-    sell: 1
-  item264:
+    buy: 2.0
+    sell: 1.0
+  item264sub0:
     name: diamond
-    buy: 52
-    sell: 42
-  item265:
+    buy: 52.0
+    sell: 42.0
+  item265sub0:
     name: iron_ingot
-    buy: 6
-    sell: 4
-  item266:
+    buy: 6.0
+    sell: 4.0
+  item266sub0:
     name: gold_ingot
-    buy: 18
-    sell: 16
-  item267:
+    buy: 18.0
+    sell: 16.0
+  item267sub0:
     name: iron_sword
-    buy: 11
-    sell: 10
-  item268:
+    buy: 11.0
+    sell: 10.0
+  item268sub0:
     name: wood_sword
-    buy: 2
-    sell: 0
-  item269:
+    buy: 2.0
+    sell: 0.0
+  item269sub0:
     name: wood_spade
-    buy: 2
-    sell: 0
-  item270:
+    buy: 2.0
+    sell: 0.0
+  item270sub0:
     name: wood_pickaxe
-    buy: 4
-    sell: 0
-  item271:
+    buy: 4.0
+    sell: 0.0
+  item271sub0:
     name: wood_axe
-    buy: 4
-    sell: 0
-  item272:
+    buy: 4.0
+    sell: 0.0
+  item272sub0:
     name: stone_sword
-    buy: 3
-    sell: 1
-  item273:
+    buy: 3.0
+    sell: 1.0
+  item273sub0:
     name: stone_spade
-    buy: 2
-    sell: 1
-  item274:
+    buy: 2.0
+    sell: 1.0
+  item274sub0:
     name: stone_pickaxe
-    buy: 4
-    sell: 2
-  item275:
+    buy: 4.0
+    sell: 2.0
+  item275sub0:
     name: stone_axe
-    buy: 4
-    sell: 2
-  item280:
+    buy: 4.0
+    sell: 2.0
+  item280sub0:
     name: stick
-    buy: 1
-    sell: 0
-  item281:
+    buy: 1.0
+    sell: 0.0
+  item281sub0:
     name: bowl
-    buy: 3
-    sell: 3
-  item282:
+    buy: 3.0
+    sell: 3.0
+  item282sub0:
     name: mushroom_soup
-    buy: 7
-    sell: 7
-  item283:
+    buy: 7.0
+    sell: 7.0
+  item283sub0:
     name: gold_sword
-    buy: 30
-    sell: 28
-  item284:
+    buy: 30.0
+    sell: 28.0
+  item284sub0:
     name: gold_spade
-    buy: 16
-    sell: 14
-  item285:
+    buy: 16.0
+    sell: 14.0
+  item285sub0:
     name: gold_pickaxe
-    buy: 45
-    sell: 42
-  item286:
+    buy: 45.0
+    sell: 42.0
+  item286sub0:
     name: gold_axe
-    buy: 45
-    sell: 42
-  item287:
+    buy: 45.0
+    sell: 42.0
+  item287sub0:
     name: string
-    buy: 5
-    sell: 5
-  item288:
+    buy: 5.0
+    sell: 5.0
+  item288sub0:
     name: feather
-    buy: 1
-    sell: 1
-  item289:
+    buy: 1.0
+    sell: 1.0
+  item289sub0:
     name: sulphur
-    buy: 1000000
-    sell: 100
-  item290:
+    buy: 1000000.0
+    sell: 100.0
+  item290sub0:
     name: wood_hoe
-    buy: 3
-    sell: 0
-  item291:
+    buy: 3.0
+    sell: 0.0
+  item291sub0:
     name: stone_hoe
-    buy: 3
-    sell: 1
-  item292:
+    buy: 3.0
+    sell: 1.0
+  item292sub0:
     name: iron_hoe
-    buy: 11
-    sell: 7
-  item293:
+    buy: 11.0
+    sell: 7.0
+  item293sub0:
     name: diamond_hoe
-    buy: 110
-    sell: 100
-  item294:
+    buy: 110.0
+    sell: 100.0
+  item294sub0:
     name: gold_hoe
-    buy: 32
-    sell: 27
-  item295:
+    buy: 32.0
+    sell: 27.0
+  item295sub0:
     name: seeds
-    buy: 1
-    sell: 0
-  item296:
+    buy: 1.0
+    sell: 0.0
+  item296sub0:
     name: wheat
-    buy: 6
-    sell: 6
-  item297:
+    buy: 6.0
+    sell: 6.0
+  item297sub0:
     name: bread
-    buy: 20
-    sell: 18
-  item298:
+    buy: 20.0
+    sell: 18.0
+  item298sub0:
     name: leather_helmet
-    buy: 5
-    sell: 5
-  item299:
+    buy: 5.0
+    sell: 5.0
+  item299sub0:
     name: leather_chestplate
-    buy: 8
-    sell: 8
-  item300:
+    buy: 8.0
+    sell: 8.0
+  item300sub0:
     name: leather_leggings
-    buy: 7
-    sell: 7
-  item301:
+    buy: 7.0
+    sell: 7.0
+  item301sub0:
     name: leather_boots
-    buy: 4
-    sell: 4
-  item302:
+    buy: 4.0
+    sell: 4.0
+  item302sub0:
     name: chainmail_helmet
-    buy: 100
-    sell: 0
-  item303:
+    buy: 100.0
+    sell: 0.0
+  item303sub0:
     name: chainmail_chestplate
-    buy: 160
-    sell: 0
-  item304:
+    buy: 160.0
+    sell: 0.0
+  item304sub0:
     name: chainmail_leggings
-    buy: 140
-    sell: 0
-  item305:
+    buy: 140.0
+    sell: 0.0
+  item305sub0:
     name: chainmail_boots
-    buy: 80
-    sell: 0
-  item306:
+    buy: 80.0
+    sell: 0.0
+  item306sub0:
     name: iron_helmet
-    buy: 30
-    sell: 25
-  item307:
+    buy: 30.0
+    sell: 25.0
+  item307sub0:
     name: iron_chestplate
-    buy: 45
-    sell: 40
-  item308:
+    buy: 45.0
+    sell: 40.0
+  item308sub0:
     name: iron_leggings
-    buy: 40
-    sell: 35
-  item309:
+    buy: 40.0
+    sell: 35.0
+  item309sub0:
     name: iron_boots
-    buy: 25
-    sell: 20
-  item310:
+    buy: 25.0
+    sell: 20.0
+  item310sub0:
     name: diamond_helmet
-    buy: 300
-    sell: 250
-  item311:
+    buy: 300.0
+    sell: 250.0
+  item311sub0:
     name: diamond_chestplate
-    buy: 450
-    sell: 400
-  item312:
+    buy: 450.0
+    sell: 400.0
+  item312sub0:
     name: diamond_leggings
-    buy: 400
-    sell: 350
-  item313:
+    buy: 400.0
+    sell: 350.0
+  item313sub0:
     name: diamond_boots
-    buy: 250
-    sell: 200
-  item314:
+    buy: 250.0
+    sell: 200.0
+  item314sub0:
     name: gold_helmet
-    buy: 75
-    sell: 70
-  item315:
+    buy: 75.0
+    sell: 70.0
+  item315sub0:
     name: gold_chestplate
-    buy: 120
-    sell: 115
-  item316:
+    buy: 120.0
+    sell: 115.0
+  item316sub0:
     name: gold_leggings
-    buy: 105
-    sell: 98
-  item317:
+    buy: 105.0
+    sell: 98.0
+  item317sub0:
     name: gold_boots
-    buy: 45
-    sell: 42
-  item318:
+    buy: 45.0
+    sell: 42.0
+  item318sub0:
     name: flint
-    buy: 2
-    sell: 2
-  item319:
+    buy: 2.0
+    sell: 2.0
+  item319sub0:
     name: pork
-    buy: 3
-    sell: 3
-  item320:
+    buy: 3.0
+    sell: 3.0
+  item320sub0:
     name: grilled_pork
-    buy: 6
-    sell: 6
-  item321:
+    buy: 6.0
+    sell: 6.0
+  item321sub0:
     name: painting
-    buy: 50
-    sell: 20
-  item322:
+    buy: 50.0
+    sell: 20.0
+  item322sub0:
     name: golden_apple
-    buy: 125
-    sell: 125
-  item323:
+    buy: 125.0
+    sell: 125.0
+  item323sub0:
     name: sign
-    buy: 7
-    sell: 3
-  item325:
+    buy: 7.0
+    sell: 3.0
+  item325sub0:
     name: bucket
-    buy: 15
-    sell: 12
-  item328:
+    buy: 15.0
+    sell: 12.0
+  item328sub0:
     name: minecart
-    buy: 25
-    sell: 15
-  item329:
+    buy: 25.0
+    sell: 15.0
+  item329sub0:
     name: saddle
-    buy: 1000000
-    sell: 10000
-  item331:
+    buy: 1000000.0
+    sell: 10000.0
+  item331sub0:
     name: redstone
-    buy: 1
-    sell: 1
-  item332:
+    buy: 1.0
+    sell: 1.0
+  item332sub0:
     name: snow_ball
-    buy: 1
-    sell: 1
-  item333:
+    buy: 1.0
+    sell: 1.0
+  item333sub0:
     name: boat
-    buy: 5
-    sell: 3
-  item344:
+    buy: 5.0
+    sell: 3.0
+  item344sub0:
     name: egg
-    buy: 2
-    sell: 1
-
+    buy: 2.0
+    sell: 1.0
+  item355sub0:
+    name: bed
+    buy: 25.0
+    sell: 12.0
