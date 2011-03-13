@@ -1,2 +1,3 @@
-dynmap/web/tiles/
-*.png
+dynmap/web/tiles/ 
+*.png 
+dynmap/
