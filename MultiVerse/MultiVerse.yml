@@ -1,8 +1,8 @@
 #Prefix Chat with World Name.
-prefix: true
+prefix: false
 
 #Choose whether or not Players have to pay to use the portals.
-iconomy: false
+iconomy: true
 
 #True/False - Whether MultiVerse should handle all respawns on every World including the Default.
 #Disable this if you have a form of Respawn Teleportation plugin.
@@ -39,5 +39,5 @@ setwand: 270
 splike: false
 autobuild: false
 nether: nether
-default: world
+default: Kubo
 respawntodefault: false

@@ -26,7 +26,7 @@ jsonfile-interval: 1
 
 # The maptypes Dynmap will use to render.
 worlds:
-  - name: Strontium
+  - name: Kubo
     maps:
       - class: org.dynmap.kzedmap.KzedMap
         renderers:
@@ -36,7 +36,7 @@ worlds:
           - class: org.dynmap.kzedmap.CaveTileRenderer
             prefix: ct
             maximumheight: 127
-  - name: EyeOfTerror
+  - name: Nether
     maps:
       - class: org.dynmap.kzedmap.KzedMap
         renderers:
@@ -61,10 +61,10 @@ web:
     joinmessage: "%playername% joined"
     quitmessage: "%playername% quit"
     
-    defaultworld: Strontium
+    defaultworld: Kubo
     worlds:
-      - title: Strontium
-        name: Strontium
+      - title: Kubo
+        name: Kubo
         maps:
           - type: KzedMapType
             title: Surface
@@ -74,8 +74,8 @@ web:
             title: Cave
             name: cave
             prefix: ct
-      - title: EyeOfTerror
-        name: EyeOfTerror
+      - title: Nether
+        name: Nether
         maps:
           - type: KzedMapType
             title: Surface

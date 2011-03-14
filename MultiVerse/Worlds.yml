@@ -1,16 +1,16 @@
 worlds:
-    Strontium:
+    Kubo:
         animals: true
         spawn: 22:74:-36:0.0:0.0
         price: 0.0
         mobs: true
         environment: NORMAL
         pvp: true
-        alias: ''
+        alias: Kubo
         worldBlacklist: ''
         playerBlacklist: ''
         playerWhitelist: ''
-    EyeOfTerror:
+    Nether:
         animals: true
         spawn: 22:74:-36:0.0:0.0
         price: 0.0

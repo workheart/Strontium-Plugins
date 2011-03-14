@@ -2,6 +2,6 @@
 plugin:
     permissions:
         system: default
-        copies: Strontium
+        copies: Kubo
 
 
