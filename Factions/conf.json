@@ -1,0 +1,125 @@
+{
+  "colorMember": "GREEN",
+  "colorAlly": "LIGHT_PURPLE",
+  "colorNeutral": "WHITE",
+  "colorEnemy": "RED",
+  "colorSystem": "YELLOW",
+  "colorChrome": "GOLD",
+  "colorCommand": "AQUA",
+  "colorParameter": "DARK_AQUA",
+  "logThreshold": 10,
+  "powerPlayerMax": 20.0,
+  "powerPlayerMin": -10.0,
+  "powerPerMinute": 0.2,
+  "powerPerDeath": 2.0,
+  "prefixAdmin": "**",
+  "prefixMod": "*",
+  "factionTagLengthMin": 3,
+  "factionTagLengthMax": 10,
+  "factionTagForceUpperCase": false,
+  "chatTagEnabled": true,
+  "chatTagRelationColored": false,
+  "chatTagInsertIndex": 1,
+  "chatTagFormat": "%s§f ",
+  "factionChatFormat": "%s§f %s",
+  "mapHeight": 8,
+  "mapWidth": 49,
+  "territoryShieldFactor": 0.5,
+  "territoryProtectedMaterials": [
+    "WOODEN_DOOR",
+    "DISPENSER",
+    "CHEST",
+    "FURNACE"
+  ],
+  "aliasBase": [
+    "/f",
+    "f"
+  ],
+  "aliasHelp": [
+    "help",
+    "h",
+    "?"
+  ],
+  "aliasList": [
+    "list",
+    "ls"
+  ],
+  "aliasShow": [
+    "show",
+    "who"
+  ],
+  "aliasMap": [
+    "map"
+  ],
+  "aliasJoin": [
+    "join"
+  ],
+  "aliasLeave": [
+    "leave"
+  ],
+  "aliasCreate": [
+    "create",
+    "new"
+  ],
+  "aliasTag": [
+    "tag"
+  ],
+  "aliasDescription": [
+    "desc"
+  ],
+  "aliasChat": [
+    "chat",
+    "c"
+  ],
+  "aliasTitle": [
+    "title"
+  ],
+  "aliasInvite": [
+    "invite",
+    "inv"
+  ],
+  "aliasDeinvite": [
+    "deinvite",
+    "deinv"
+  ],
+  "aliasOpen": [
+    "open",
+    "close"
+  ],
+  "aliasKick": [
+    "kick"
+  ],
+  "aliasModerator": [
+    "mod"
+  ],
+  "aliasAdmin": [
+    "admin"
+  ],
+  "aliasClaim": [
+    "claim"
+  ],
+  "aliasUnclaim": [
+    "unclaim",
+    "declaim"
+  ],
+  "aliasRelationAlly": [
+    "ally"
+  ],
+  "aliasRelationNeutral": [
+    "neutral"
+  ],
+  "aliasRelationEnemy": [
+    "enemy"
+  ],
+  "aliasVersion": [
+    "version"
+  ],
+  "aliasTrue": [
+    "true",
+    "yes",
+    "y",
+    "ok",
+    "on",
+    "+"
+  ]
+}
