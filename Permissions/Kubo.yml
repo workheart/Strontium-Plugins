@@ -8,9 +8,9 @@ groups:
     NotRegistered:
         default: true
         info: 
-            prefix: '&8[&0Guest&8]&8'
+            prefix: '&8[&0Gast&8]&8'
             suffix: '&f'
-            build: false
+            build: true
         inheritance:
         permissions:
             - 'general.spawn'
@@ -72,7 +72,7 @@ groups:
     Mod:
         default: false
         info: 
-            prefix: '&8[&6Builder&8]&e'
+            prefix: '&8[&6Mod&8]&e'
             suffix: '&f'
             build: true
         inheritance: Builder
@@ -143,7 +143,7 @@ groups:
     Admin:
         default: false
         info:
-            prefix: '&1[&4Admin&1]&4'
+            prefix: '&1[&4ADM&1]&4'
             suffix: '&f'
             build: true
         permissions: 

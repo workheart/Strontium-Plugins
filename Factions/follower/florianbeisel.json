@@ -1,0 +1,9 @@
+{
+  "factionId": 1,
+  "role": "ADMIN",
+  "title": "ADMIN",
+  "power": 20.0,
+  "lastPowerUpdateTime": 1300079608048,
+  "mapAutoUpdating": false,
+  "factionChatting": false
+}
