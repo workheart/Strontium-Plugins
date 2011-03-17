@@ -6,7 +6,7 @@ plugin:
 
 groups:
     NotRegistered:
-        default: true
+        default: false
         info: 
             prefix: '&8[&0Gast&8]&8'
             suffix: '&f'
@@ -17,6 +17,11 @@ groups:
 
             - 'multiverse.world.spawn'
             - 'multiverse.world.list'
+            - 'BetterShop.user.*'
+            - 'iConomy.payment'
+            - 'iConomy.rank'
+            - 'iConomy.list'
+
 
             - 'mywarp.warp.basic.warp'
             - 'mywarp.warp.basic.compass'
@@ -24,7 +29,7 @@ groups:
             - 'mywarp.warp.basic.search'
             - 'mywarp.warp.sign.warp'            
     Builder:
-        default: false
+        default: true
         info:
             prefix: '&8[&6Builder&8]&e'
             suffix: '&f'
@@ -33,7 +38,6 @@ groups:
         permissions:
             - 'general.spawn'
             - 'general.teleport'
-            - 'general.items'
 
             - 'multiverse.world.spawn'
             - 'multiverse.world.list'
@@ -53,7 +57,6 @@ groups:
             - 'mywarp.warp.basic.delete'
             - 'mywarp.warp.sign.create'
 
-            - 'bb.admin.info'
             - 'mcbans.vote.*'
             - 'myhome.home.*'
 

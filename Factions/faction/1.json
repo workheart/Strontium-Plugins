@@ -1,7 +1,9 @@
 {
   "relationWish": {},
-  "invites": [],
-  "open": true,
+  "invites": [
+    "PeteMachine"
+  ],
+  "open": false,
   "tag": "KUBO",
   "description": "Das Team von Kubo.li"
 }

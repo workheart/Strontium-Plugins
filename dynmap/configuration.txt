@@ -10,7 +10,7 @@ tilespath: web/tiles
 webpath: web
 
 # The network-interface the webserver will bind to (0.0.0.0 for all interfaces, 127.0.0.1 for only local access).
-webserver-bindaddress: 0.0.0.0
+webserver-bindaddress: 127.0.0.1
 
 # The TCP-port the webserver will listen on.
 webserver-port: 8123
@@ -53,13 +53,13 @@ web:
     
     # showchat: modal/balloons
     showchat: modal
-    messagettl: 15000
+    messagettl: 30000
         
     showplayerfacesonmap: true
     showplayerfacesinmenu: true
     focuschatballoons: false
-    joinmessage: "%playername% joined"
-    quitmessage: "%playername% quit"
+    joinmessage: "%playername% ist dem Spiel beigetreten."
+    quitmessage: "%playername% hat uns verlassen."
     
     defaultworld: Kubo
     worlds:

@@ -555,6 +555,10 @@ prices:
     name: boat
     buy: 5.0
     sell: 3.0
+  item338sub0:
+    name: reeds
+    buy: 6.0
+    sell: 6.0
   item344sub0:
     name: egg
     buy: 2.0
